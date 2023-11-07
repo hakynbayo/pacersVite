@@ -1,0 +1,18 @@
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+
+import './App.css'
+// import Dashboard from "./components/Dashboard/Dashboard"
+
+
+function App() {
+  return (  
+      <Router>
+        <Routes>
+          <Route path="/Home" element={<Home />} />
+        </Routes>
+      </Router>
+  );
+}
+
+export default App;
