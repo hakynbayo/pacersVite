@@ -47,13 +47,14 @@ const NavBar = ({ isHome }: { isHome?: boolean }) => {
           </div>
 
           <div>
-          
-            <button
-              type="button"
-              className="h-[46px] w-full rounded-[40px] text-blue-600 border border-blue-600"
-            >
-              Login
-            </button>
+            <Link to="/Dashboard">
+              <button
+                type="button"
+                className="h-[46px] w-full rounded-[40px] text-blue-600 border border-blue-600"
+              >
+                Login
+              </button>
+            </Link>
             <button
               type="button"
               className="mt-6 h-[46px] w-full rounded-[40px]"
@@ -78,35 +79,29 @@ const NavBar = ({ isHome }: { isHome?: boolean }) => {
               <p className="font-dm-sans font-[500]">{item.text}</p>
             </Link>
           ))}
-            <div className="relative h-[24px] w-[30px]">
-              <img
-                src={Search}
-                className="object-contain"
-                alt="logo"
-              />
-            </div>
-            <div>
-        <Link to="/Dashboard">
-          <button
-            type="button"
-            className="h-[46px] w-[119px] rounded-[40px] text-blue-600 border border-blue-600"
-          >
-            Login
-          </button>
-        </Link>
-        <Link to="/register">
-          <button
-            type="button"
-            className="ml-6 h-[46px] w-[119px] rounded-[40px] bg-blue-600 text-white"
-          >
-            Sign up
-          </button>
-        </Link>
-      </div>
+          <div className="relative h-[24px] w-[30px]">
+            <img src={Search} className="object-contain" alt="logo" />
+          </div>
+          <div>
+            <Link to="/Dashboard">
+              <button
+                type="button"
+                className="h-[46px] w-[119px] rounded-[40px] text-blue-600 border border-blue-600"
+              >
+                Login
+              </button>
+            </Link>
+            <Link to="/register">
+              <button
+                type="button"
+                className="ml-6 h-[46px] w-[119px] rounded-[40px] bg-blue-600 text-white"
+              >
+                Sign up
+              </button>
+            </Link>
+          </div>
         </div>
       )}
-
-     
     </nav>
   );
 };
