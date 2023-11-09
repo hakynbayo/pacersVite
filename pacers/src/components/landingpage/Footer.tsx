@@ -10,7 +10,7 @@ const Footer = () => {
       style={{
         backgroundImage: `url("/assets/footer-pattern.svg")`,
       }}
-      className="bg-footer-bg font-roboto text-white px-4 sm:px-16 py-20 "
+      className="bg-footer-bg font-roboto text-white px-4 sm:px-6 py-20 "
     >
       <section className="flex flex-col justify-between pb-36 sm:flex-row ">
         <div>
@@ -58,7 +58,7 @@ const Footer = () => {
                 Pacer Labs 10 Hughes Avenue, Alagomeji Yaba, Lagos
               </p>
             </div>
-            <div className="flex items-center w-[80%] sm:w-[40%]">
+            <div className="flex items-center w-[80%] sm:w-[60%]">
               <TfiWorld />
               <p className="">info@pacerlabs <br />.co</p>
             </div>

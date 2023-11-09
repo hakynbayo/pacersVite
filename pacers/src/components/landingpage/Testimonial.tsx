@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Courses } from "../../constants/data";
+import quote from "../../assets/Vector.svg";
+
 import { motion } from "framer-motion";
 
 const Download = () => {
@@ -28,23 +30,26 @@ const Download = () => {
   }, [currentPage, totalPages]);
 
   return (
-    <div className="bg-download-bg flex flex-col font-roboto text-black px-16 py-32">
+    <div className="bg-download-bg flex flex-col font-roboto text-black px-6 py-32">
       <div>
         <p className="font-nunito font-400 text-heading text-[28px]">
           Testimonies from our Valued Student
         </p>
       </div>
       <div
-        className="flex items-center justify-between w-[100%] mt-16 gap-6"
+        className="flex flex-col sm:flex-row items-center justify-between w-full mt-16 gap-6"
         id="Courses"
       >
         {paginatedCourses &&
           paginatedCourses.map((n) => (
             <motion.div
               key={n.id}
-              className="border border-member-blue w-[40%] rounded-md p-2"
+              className="border border-member-blue w-full sm:w-[40%] rounded-md p-2"
             >
               <div className="flex items-center gap-2 text-gray-500">
+                <div className="relative z-90 bottom-[44px]">
+                  <img src={quote} alt="quote-svg" />
+                </div>
                 <img
                   src={n.imageSrc}
                   className="rounded-md my-4"
@@ -55,7 +60,7 @@ const Download = () => {
 
               <div className="flex flex-1 w-[70%] items-center justify-between">
                 <p className="text-lg text-gray-300">
-                  <span className="block text-sm text-gray-500">{n.techs}</span>
+                  <span className="block text-sm text-gray-500">{n.text}</span>
                 </p>
               </div>
               <div className="flex items-center gap-2 text-gray-500">

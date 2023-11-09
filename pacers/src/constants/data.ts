@@ -1,4 +1,3 @@
-import instructor from "../assets/instructor.svg";
 import Priscilla from "../assets/priscilla.svg";
 import Tolu from "../assets/tolu.svg";
 import Dami from "../assets/dami.svg";
@@ -50,7 +49,7 @@ export const faq = [
       name: "Priscilla Jakes",
       imageSrc: Priscilla,
       image:fivestar ,
-      techs: "The platform’s user interface is user friendly, making it easy to access course materials and assignments.",
+      text: "The platform’s user interface is user friendly, making it easy to access course materials and assignments.",
       github: "https://github.com/hakynbayo/Music-App",
       link: "https://smooze.netlify.app/"
     },
@@ -60,7 +59,7 @@ export const faq = [
       name: "Babatunde Damilare",
       imageSrc: Dami,
       image:fourstar ,
-      techs: "The discussions are more interactive than i thought. i also love the fact that there are various communities you can join as a student.",
+      text: "The discussions are more interactive than i thought. i also love the fact that there are various communities you can join as a student.",
       github: "https://github.com/hakynbayo/Ecommerice-Website-in-React",
       link: "https://faithy-store.netlify.app/"
     },
@@ -69,7 +68,7 @@ export const faq = [
         imageSrc: Tolu,
         name:"Adeleke Tolulope",
         image:fourstar ,
-        techs: "The video lectures and quizzes have been quite helpful in my learning process. I also appreciate the timely responses from instructors.",
+        text: "The video lectures and quizzes have been quite helpful in my learning process. I also appreciate the timely responses from instructors.",
         github: "https://github.com/hakynbayo/Smooze-movie",
         link: "https://smooze-movie.netlify.app/"
       },
@@ -79,7 +78,7 @@ export const faq = [
       imageSrc: Tolu,
       name:"Adeleke Tolulope",
       image:fourstar ,
-      techs: "The video lectures and quizzes have been quite helpful in my learning process. I also appreciate the timely responses from instructors.",
+      text: "The video lectures and quizzes have been quite helpful in my learning process. I also appreciate the timely responses from instructors.",
       github: "https://github.com/hakynbayo/Smooze-movie",
       link: "https://smooze-movie.netlify.app/"
     },
@@ -88,7 +87,7 @@ export const faq = [
       name: "Priscilla Jakes",
       imageSrc: Priscilla,
       image:fivestar ,
-      techs: "The platform’s user interface is user friendly, making it easy to access course materials and assignments.",
+      text: "The platform’s user interface is user friendly, making it easy to access course materials and assignments.",
       github: "https://github.com/hakynbayo/Music-App",
       link: "https://smooze.netlify.app/"
     },
@@ -97,7 +96,7 @@ export const faq = [
       name: "Babatunde Damilare",
       imageSrc: Dami,
       image:fourstar ,
-      techs: "The discussions are more interactive than i thought. i also love the fact that there are various communities you can join as a student.",
+      text: "The discussions are more interactive than i thought. i also love the fact that there are various communities you can join as a student.",
       github: "https://github.com/hakynbayo/Ecommerice-Website-in-React",
       link: "https://faithy-store.netlify.app/"
     },
@@ -106,7 +105,7 @@ export const faq = [
       imageSrc: Tolu,
       name:"Adeleke Tolulope",
       image:fourstar ,
-      techs: "The video lectures and quizzes have been quite helpful in my learning process. I also appreciate the timely responses from instructors.",
+      text: "The video lectures and quizzes have been quite helpful in my learning process. I also appreciate the timely responses from instructors.",
       github: "https://github.com/hakynbayo/Smooze-movie",
       link: "https://smooze-movie.netlify.app/"
     },
@@ -115,7 +114,7 @@ export const faq = [
       name: "Babatunde Damilare",
       imageSrc: Dami,
       image:fourstar ,
-      techs: "The discussions are more interactive than i thought. i also love the fact that there are various communities you can join as a student.",
+      text: "The discussions are more interactive than i thought. i also love the fact that there are various communities you can join as a student.",
       github: "https://github.com/hakynbayo/Ecommerice-Website-in-React",
       link: "https://faithy-store.netlify.app/"
     },
@@ -124,9 +123,9 @@ export const faq = [
       name: "Priscilla Jakes",
       imageSrc: Priscilla,
       image:fivestar ,
-      techs: "The platform’s user interface is user friendly, making it easy to access course materials and assignments.",
+      text: "The platform’s user interface is user friendly, making it easy to access course materials and assignments.",
       github: "https://github.com/hakynbayo/Music-App",
       link: "https://smooze.netlify.app/"
     },
-   
   ];
+

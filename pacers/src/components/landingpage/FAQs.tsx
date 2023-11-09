@@ -7,7 +7,7 @@ import {MdKeyboardArrowDown} from "react-icons/md"
 const FAQs = () => {
   const [id, setId] = useState<number>();
   return (
-    <div className="w-full  font-dm-sans mb-4 grid gap-10 px-16">
+    <div className="w-full  font-dm-sans mb-4 grid gap-10 px-6 py-32">
       <div className="overflow-hidden">
         <p className="font-sora mb-10 text-center text-[24px] font-[400]">
           Frequently Asked Questions

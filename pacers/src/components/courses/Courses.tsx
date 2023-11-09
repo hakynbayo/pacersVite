@@ -5,7 +5,7 @@ import { FaRegUser } from "react-icons/fa";
 import { AiOutlineClockCircle, AiOutlineStar } from "react-icons/ai";
 const AboutUs = () => {
   return (
-    <div className="bg-bg-blue flex flex-col justify-start font-roboto text-black mr-4 mt-4 p-4 ">
+    <div className="bg-download-bg flex flex-col justify-start border shadow-sm rounded-md font-roboto text-black mr-4 mt-4 p-4 ">
       <div className="mb-2 w-full">
         <img src={course} alt="course" />
       </div>

@@ -65,6 +65,21 @@
     @apply text-sm md:text-base;
   }
 
+  .side_bar__wrapper {
+  @apply hidden lg:block;
+  /* @apply col-start */
+}
+
+.side_bar {
+  @apply h-screen;
+  @apply overflow-y-auto;
+  @apply sticky inset-x-0 top-0;
+  /* @apply pb-28; */
+  @apply shadow-xl;
+  @apply bg-white;
+  /* @apply col-span-1 */
+}
+
   .orange{
     border:1px solid #F8C23A;
     border-radius:5px;

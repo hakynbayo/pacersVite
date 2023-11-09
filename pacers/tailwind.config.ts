@@ -31,7 +31,7 @@ export default {
         dark: '#222222',
         'thrindle-blue': '#065DA7',
         'thrindle-green': '#25D366',
-        'thrindle-yellow': '#FEA218',
+        'download-yellow': '#FEA218',
         'thrindle-black': '#1B1C1E',
         'thrindle-grey': '#F1F1F1',
         'footer-bg': '#3B3B3B',
@@ -42,6 +42,10 @@ export default {
         'member-blue':'#3362CC',
         'course-btn': '#3B3B3B',
         'heading':'#130F25',
+        'course-white':'#D3D7DC40',
+        'progress':'#C4C4C4',
+        'grey':'#605E5E',
+        
       },
       keyframes: {
         flicker: {

@@ -67,7 +67,7 @@ const NavBar = ({ isHome }: { isHome?: boolean }) => {
   }
 
   return (
-    <nav className="fixed top-0 z-10 mb-10 flex w-full items-center justify-between bg-white bg-opacity-30 px-6 py-4 backdrop-blur-lg backdrop-filter sm:px-10 lg:px-16 xl:px-16">
+    <nav className="fixed top-0 z-10 mb-10 flex flex-wrap w-full items-center justify-between bg-white bg-opacity-30 px-6 py-4 backdrop-blur-lg backdrop-filter sm:px-10 lg:px-16 xl:px-16">
       <div className=" w-[131px]">
         <h4 className="text-gray-400">LOGO</h4>
       </div>
@@ -86,7 +86,7 @@ const NavBar = ({ isHome }: { isHome?: boolean }) => {
               />
             </div>
             <div>
-        <Link to="/login">
+        <Link to="/Dashboard">
           <button
             type="button"
             className="h-[46px] w-[119px] rounded-[40px] text-blue-600 border border-blue-600"
