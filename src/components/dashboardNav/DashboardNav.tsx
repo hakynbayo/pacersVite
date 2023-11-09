@@ -1,5 +1,6 @@
 
 import { MdSearch } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 const NavBar   = () => {
 
@@ -7,7 +8,9 @@ const NavBar   = () => {
     <nav className="fixed top-0 z-10 mb-10 flex w-full items-center shadow-md justify-between bg-white bg-opacity-30 px-6 py-4 backdrop-blur-lg backdrop-filter">
     <div className=" w-[131px]">
     
-        <h2 className="text-black-400">LOGO</h2>
+    <Link to="/Dashboard">
+            <h4>LOGO</h4>
+            </Link>
       </div>
       
           <div className="relative flex justify-start items-center">
