@@ -1,5 +1,3 @@
-import React from 'react';
-// import { PiBasket, PiWhatsappLogoThin } from 'react-icons/pi';
 import HeroImage from "../../assets/Image.svg"
 
 

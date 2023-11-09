@@ -1,4 +1,3 @@
-import React from "react";
 import course from "../../assets/courses.svg";
 import instructor from "../../assets/instructor.svg";
 import { FaRegUser } from "react-icons/fa";

@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
-const Quiz = () => {
-  const [currentQuestion, setCurrentQuestion] = useState(0);
-  const [selectedOption, setSelectedOption] = useState(null);
+const Quiz: React.FC = () => {
+  const [currentQuestion, setCurrentQuestion] = useState<number>(0);
+  const [selectedOption, setSelectedOption] = useState<string | null>(null);
 
   const questions = [
     {
@@ -26,7 +26,7 @@ const Quiz = () => {
     // Add more questions and options as needed
   ];
 
-  const handleOptionSelect = (option:string) => {
+  const handleOptionSelect = (option: string) => {
     setSelectedOption(option);
   };
 
@@ -46,7 +46,7 @@ const Quiz = () => {
 
   return (
     <div className='my-32 mx-8 sm:mx-64 w-full leading-10'>
-        <p className='font-bold'>Questions</p>
+      <p className='font-bold'>Questions</p>
       <p className="text-md mb-4">{questions[currentQuestion].question}</p>
       <ol className="list-none ml-6">
         {questions[currentQuestion].options.map((option, index) => (

@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { CiLocationOn } from "react-icons/ci";
 import { TfiWorld } from "react-icons/tfi";

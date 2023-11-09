@@ -1,4 +1,3 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import Active from "../../assets/active.svg"
 import Active2 from "../../assets/active2.svg"

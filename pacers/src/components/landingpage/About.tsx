@@ -1,4 +1,3 @@
-import React from "react";
 import About from "../../assets/about-image.svg";
 import { Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";

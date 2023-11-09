@@ -1,14 +1,14 @@
-import React, { useState, useEffect } from "react";
-import { Courses } from "../../constants/data";
-import quote from "../../assets/Vector.svg";
+import React, { useState, useEffect } from 'react';
+import { Courses } from '../../constants/data';
+import quote from '../../assets/Vector.svg';
 
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
 
-const Download = () => {
+const Download: React.FC = () => {
   const itemsPerPage = 3;
   const [currentPage, setCurrentPage] = useState(0);
 
-  const handlePageChange = (page) => {
+  const handlePageChange = (page: number) => {
     setCurrentPage(page);
   };
 
@@ -79,8 +79,8 @@ const Download = () => {
             key={index}
             className={`mx-1 p-1 ${
               currentPage === index
-                ? "bg-blue-500 text-white w-6 h-1 rounded-full"
-                : "bg-blue-200 text-blue-500 w-3 h-1 rounded-full"
+                ? 'bg-blue-500 text-white w-6 h-1 rounded-full'
+                : 'bg-blue-200 text-blue-500 w-3 h-1 rounded-full'
             }`}
             onClick={() => handlePageChange(index)}
           >

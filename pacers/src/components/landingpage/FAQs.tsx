@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { faq } from "../../constants/data";
-import { Icon } from "@iconify/react";
 import {MdKeyboardArrowDown} from "react-icons/md"
 
 const FAQs = () => {

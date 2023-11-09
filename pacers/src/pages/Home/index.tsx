@@ -1,4 +1,3 @@
-import React from "react";
 import FAQs from "../../components/landingpage/FAQs";
 import Footer from "../../components/landingpage/Footer";
 import HereSection from "../../components/landingpage/HereSection";

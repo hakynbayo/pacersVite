@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 // Import any necessary dependencies like useMediaQuery, GenModal, Link, and navbarItems
 import useMediaQuery from "../../hooks/useMediaQuery";

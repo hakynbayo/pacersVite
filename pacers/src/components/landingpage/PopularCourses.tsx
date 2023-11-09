@@ -1,16 +1,15 @@
-import React, { useState } from "react";
-import Courses from "../courses/Courses";
+import React, { useState } from 'react';
+import Courses from '../courses/Courses';
 
-const PopularCourses = () => {
-  const [activeButton, setActiveButton] = useState(null);
+const PopularCourses: React.FC = () => {
+  const [activeButton, setActiveButton] = useState<string | null>(null);
 
-  const handleButtonClick = (
-    buttonName: unknown | React.SetStateAction<null>
-  ) => {
+  const handleButtonClick = (buttonName: string | null) => {
     setActiveButton(buttonName);
   };
+
   return (
-    <div className="bg-download-bg w-full flex flex-col font-roboto text-black px-6 py-16 ">
+    <div className="bg-download-bg w-full flex flex-col font-roboto text-black px-6 py-16">
       <div className="flex flex-col sm:flex-row gap-6 justify-between">
         <div className="flex justify-start">
           <h3>Popular Courses</h3>
@@ -18,41 +17,33 @@ const PopularCourses = () => {
         <div className="flex justify-end">
           <button
             className={`py-1 px-2 border-2 rounded-md mr-2 ${
-              activeButton === "All Courses"
-                ? "bg-black text-white"
-                : "border-course-btn"
+              activeButton === 'All Courses' ? 'bg-black text-white' : 'border-course-btn'
             }`}
-            onClick={() => handleButtonClick("All Courses")}
+            onClick={() => handleButtonClick('All Courses')}
           >
             All Courses
           </button>
           <button
             className={`py-1 px-2 border-2 rounded-md mr-2 ${
-              activeButton === "Web Design"
-                ? "bg-black text-white"
-                : "border-course-btn"
+              activeButton === 'Web Design' ? 'bg-black text-white' : 'border-course-btn'
             }`}
-            onClick={() => handleButtonClick("Web Design")}
+            onClick={() => handleButtonClick('Web Design')}
           >
             Web Design
           </button>
           <button
             className={`py-1 px-2 border-2 rounded-md mr-2 ${
-              activeButton === "Data"
-                ? "bg-black text-white"
-                : "border-course-btn"
+              activeButton === 'Data' ? 'bg-black text-white' : 'border-course-btn'
             }`}
-            onClick={() => handleButtonClick("Data")}
+            onClick={() => handleButtonClick('Data')}
           >
             Data
           </button>
           <button
             className={`py-1 px-2 border-2 rounded-md mr-2 ${
-              activeButton === "Cybersecurity"
-                ? "bg-black text-white"
-                : "border-course-btn"
+              activeButton === 'Cybersecurity' ? 'bg-black text-white' : 'border-course-btn'
             }`}
-            onClick={() => handleButtonClick("Cybersecurity")}
+            onClick={() => handleButtonClick('Cybersecurity')}
           >
             Cybersecurity
           </button>

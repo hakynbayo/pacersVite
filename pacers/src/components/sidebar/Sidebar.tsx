@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { AiFillSignal, AiOutlineSetting } from 'react-icons/ai';
 import { BsChat, BsQuestionSquare } from 'react-icons/bs';
 import { HiOutlineClipboardCheck } from 'react-icons/hi';

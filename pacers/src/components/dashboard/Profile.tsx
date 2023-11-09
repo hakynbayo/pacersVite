@@ -1,8 +1,6 @@
-import React from "react";
 import { AiOutlineBell, AiOutlineCamera } from "react-icons/ai";
 import { TfiTicket } from "react-icons/tfi";
 import profilepic from "../../assets/profilepic.svg";
-import archive from "../../assets/archive.svg";
 
 const Profile = () => {
   return (
