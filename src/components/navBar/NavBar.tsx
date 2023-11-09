@@ -21,8 +21,8 @@ const NavBar = ({ isHome }: { isHome?: boolean }) => {
       <>
         <div className="mb-6 flex w-full items-center justify-between px-6">
           <div className="relative h-[34px] w-[80px]">
-          <Link to="/Dashboard">
-            <h4>LOGO</h4>
+            <Link to="/">
+              <h4>LOGO</h4>
             </Link>
           </div>
           <div className="relative h-[24px] w-[24px]">
@@ -36,8 +36,8 @@ const NavBar = ({ isHome }: { isHome?: boolean }) => {
         </div>
         <GenModal isOpen={open} handleCloseModal={toggleModal}>
           <div className="relative h-[56px] w-[131px]">
-          <Link to="/Dashboard">
-            <h4>LOGO</h4>
+            <Link to="/">
+              <h4>LOGO</h4>
             </Link>
           </div>
           <div className="item-center mt-10 gap-10">
