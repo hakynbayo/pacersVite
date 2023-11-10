@@ -34,7 +34,7 @@ const SeeAll = () => {
                 </div>
               </div>
             </div>
-            <div className="flex-wrap  sm:block bg-download-bg w-1/2 rounded-md shadow-md my-6 mx-6 p-4">
+            <div className="flex-wrap hidden sm:block bg-download-bg w-1/2 rounded-md shadow-md my-6 mx-6 p-4">
               <p className="w-[70%]">
                 {" "}
                 User interface and User Experience Design
@@ -75,7 +75,7 @@ const SeeAll = () => {
                 </div>
               </div>
             </div>
-            <div className="flex-wrap  sm:block bg-download-bg w-1/2 rounded-md shadow-md my-6 mx-6 p-4">
+            <div className="flex-wrap hidden sm:block bg-download-bg w-1/2 rounded-md shadow-md my-6 mx-6 p-4">
               <p className="w-[70%]">
                 {" "}
                 User interface and User Experience Design
@@ -116,7 +116,7 @@ const SeeAll = () => {
                 </div>
               </div>
             </div>
-            <div className="flex-wrap  sm:block bg-download-bg w-1/2 rounded-md shadow-md my-6 mx-6 p-4">
+            <div className="flex-wrap hidden sm:block bg-download-bg w-1/2 rounded-md shadow-md my-6 mx-6 p-4">
               <p className="w-[70%]">
                 {" "}
                 User interface and User Experience Design

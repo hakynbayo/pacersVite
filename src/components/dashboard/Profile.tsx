@@ -26,7 +26,7 @@ const YourComponent: React.FC = () => {
           <img src={profilepic} alt="" />
           <Link to='/editprofile'>
           <button>
-          <FaRegEdit className="border-2 border-bg-blue" size={26} />
+          <FaRegEdit className="border-2 border-bg-blue mt-4" size={26} />
           </button>
           </Link>
         </div>
