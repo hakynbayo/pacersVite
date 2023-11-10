@@ -45,8 +45,11 @@ const Quiz: React.FC = () => {
   };
 
   return (
-    <div className='my-32 mx-8 sm:mx-64 w-full leading-10'>
-      <p className='font-bold'>Questions</p>
+    <div className='my-24 mx-1 sm:mx-2 w-full leading-10'>
+      <div className='mb-8 bg-bg-blue w-[60%] p-2 text-[19px]'>
+        <p>Digital Marketing and e-commerce</p>
+      </div>
+      <p className='font-bold mb-8'>Questions</p>
       <p className="text-md mb-4">{questions[currentQuestion].question}</p>
       <ol className="list-none ml-6">
         {questions[currentQuestion].options.map((option, index) => (
@@ -63,18 +66,18 @@ const Quiz: React.FC = () => {
           </li>
         ))}
       </ol>
-      <div className="mt-4">
+      <div className="mt-12 mx-4">
         {currentQuestion > 0 && (
-          <button className="px-2 py-1 bg-blue-500 rounded-md text-white mr-4" onClick={handlePrevious}>
+          <button className="px-8 bg-blue-500 rounded-md text-white mr-4" onClick={handlePrevious}>
             Previous
           </button>
         )}
         {currentQuestion < questions.length - 1 ? (
-          <button className="px-2 py-1 bg-blue-500 rounded-md text-white" onClick={handleContinue}>
-            Continue
+          <button className="px-8 bg-blue-500 rounded-md text-white" onClick={handleContinue}>
+            Next
           </button>
         ) : (
-          <button className="px-2 py-1 bg-blue-500 rounded-md text-white" disabled>
+          <button className="px-8 bg-blue-500 rounded-md text-white" disabled>
             Finish
           </button>
         )}

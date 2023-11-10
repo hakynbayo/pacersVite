@@ -1,9 +1,10 @@
 import { MdSearch } from "react-icons/md";
 import { Link } from "react-router-dom";
 
+
 const NavBar = () => {
   return (
-    <nav className="fixed top-0 z-10 mb-10 flex w-full items-center shadow-md justify-between bg-white bg-opacity-30 px-6 py-4 backdrop-blur-lg backdrop-filter">
+    <nav className="fixed top-0 z-30 mb-10 flex w-full items-center shadow-md justify-between bg-white bg-opacity-30 px-6 py-4 backdrop-blur-lg backdrop-filter">
       <div className=" w-[131px]">
         <Link to="/">
           <h4>LOGO</h4>

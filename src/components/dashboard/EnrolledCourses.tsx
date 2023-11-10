@@ -6,7 +6,7 @@ const ActiveCourse = () => {
   return (
     <div className="flex">
       <div className="flex-col">
-        <div className="bg-white font-roboto flex-col w-[90%] h-[25%] flex-wrap justify-start border shadow-sm rounded-2xl text-black px-6 mt-28">
+        <div className="bg-white font-roboto flex-col w-[90%] h-[25%] flex-wrap justify-center border shadow-sm rounded-2xl text-black px-6 mt-28">
           <p className="w-full text-[22px] px-6 pt-6">Enrolled Courses</p>
           <div className="flex">
             <div className="flex-wrap bg-download-bg w-2/2 sm:w-1/2 rounded-2xl shadow-md my-6 mx-6 p-4">
@@ -37,7 +37,7 @@ const ActiveCourse = () => {
             </div>
           </div>
           <div className="flex justify-end px-8 text-[20px]">
-            <Link to="/">See all</Link>
+            <Link to="/seeall">See all</Link>
           </div>
         </div>
         <div className="bg-white font-roboto flex-col w-[90%] h-[25%] flex-wrap justify-start border shadow-sm rounded-2xl text-black px-6 mt-12">
@@ -71,12 +71,12 @@ const ActiveCourse = () => {
             </div>
           </div>
           <div className="flex justify-end px-8 text-[20px]">
-            <Link to="/">See all</Link>
+            <Link to="/seeallcomplete">See all</Link>
           </div>
         </div>
-        <div className="bg-white font-roboto flex-col w-[90%] h-[35%] flex-wrap justify-start border shadow-sm rounded-2xl text-black px-6 my-12">
+        <div className="bg-white font-roboto flex-col w-[90%] h-[33%] flex-wrap justify-start border shadow-sm rounded-2xl text-black px-6 my-12">
           <p className="w-full text-[22px] p-6">Active Courses</p>
-          <div className="flex">
+          <div className="flex ">
             <div className="flex-wrap bg-download-bg w-2/2 sm:w-1/2 rounded-2xl shadow-md my-6 mx-6 p-4">
               <img src={Active} alt="course-image" />
               <p className="w-[70%]">
@@ -105,9 +105,6 @@ const ActiveCourse = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="flex justify-end px-8 text-[20px]">
-            <Link to="/">See all</Link>
           </div>
         </div>
       </div>

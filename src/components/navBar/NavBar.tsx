@@ -51,10 +51,10 @@ const NavBar = ({ isHome }: { isHome?: boolean }) => {
           </div>
 
           <div>
-            <Link to="/Dashboard">
+          <Link to="/Dashboard">
               <button
                 type="button"
-                className="h-[46px] w-full rounded-[40px] text-blue-600 border border-blue-600"
+                className="h-[46px] w-[119px] rounded-[40px] text-blue-600 border border-blue-600"
               >
                 Login
               </button>

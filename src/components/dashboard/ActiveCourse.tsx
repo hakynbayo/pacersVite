@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Active from "../../assets/active.svg"
 import Active2 from "../../assets/active2.svg"
 
@@ -37,9 +36,6 @@ const ActiveCourse = () => {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="flex justify-end px-8 text-[20px]">
-            <Link to="/">See all</Link>
           </div>
         </div>
       </div>

@@ -7,7 +7,7 @@ const HereSection = () => {
     <section
       className='bg-bg-blue overflow-hidden bg-cover bg-no-repeat pb-10'
     >
-      <section className=' flex flex-col w-full items-center justify-between my-8 gap-10 px-6  py-10 sm:px-2 md:flex-row md:py-20 lg:px-6 xl:px-16 '>
+      <section className=' flex flex-col w-full items-center justify-between my-8 gap-4 px-6  py-10 sm:px-2 md:flex-row md:py-20 lg:px-6 xl:px-16 '>
       <div className='  relative w-[355px] sm:h-[335px]  sm:w-[335px] lg:h-[400px] lg:w-[400px] xl:h-[582px] xl:w-[582px]'>
           <p className=' text-thrindle-black text-left font-sora  w-full text-[40px] font-bold leading-[50px] md:block md:text-[30px] md:leading-[70px] lg:text-[50px] '>
             Empower Your {' '}

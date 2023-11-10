@@ -45,6 +45,7 @@ export default {
         'course-white':'#D3D7DC40',
         'progress':'#C4C4C4',
         'grey':'#605E5E',
+        'chat':'#FEFAF6',
         
       },
       keyframes: {
